@@ -2,9 +2,10 @@ body{
     font-family: 'Montserrat';
     background-color: #eee;
 }
+/* Navigation and Side Bar */
 #Nav-Side .sidebar{
     height:100vh;
-    background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.9)), url(../img/IMG_20200726_133830.jpg);
+    background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.9)), url(../img/Shan_bg.jpg);
     background-position:center;
     background-position-y:0px;
     background-repeat:no-repeat;
@@ -81,7 +82,7 @@ body{
       position: static;
     }
 }
-
+/* Cards */
 #Cards .design{
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.288);
     transition: all .3s;
@@ -90,7 +91,7 @@ body{
     box-shadow: 2px 3px 15px #999;
     transform: translateY(-1px);
 }
-
+/* Conversion Rates and Tasks */
 #Conv-Task .tool-tip{
     position:relative;
 }
